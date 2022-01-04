@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+    color: gray;
+}
+
+h3{
+    text-align: center;
+    margin: 30px;
+}
+#main_frame{
+    width: 200px;
+    height: 700px;
+    margin-left: 10px;
+}
+#left{
+    float: left;
+    width: 200px;
+    height: 700px;
+    font-size: 25px;
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+#middle{
+    position: absolute;
+    width: 900px;
+    height: 100px;
+    margin-left: 200px;
+    border-top: 1px solid black;
+}
+#middle li{
+    display: inline;
+    
+}
+#mark{
+    float: left;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+    color: gray;
+    font-weight: bold;
+}
+#info{
+    float: right;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: 50px;
+    color: gray;
+    font-weight: bold;
+}
+#clause{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#clause_agree{
+    position: relative;
+    top: 20px;
+    left: 610px;
+    font-size: 25px;
+}
+#bottom_clause{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+#bottom_clause2{
+    position: relative;
+    float: left;
+    top: 30px;
+    left: 50px;
+    font-size: 17px;
+    color: gray;
+    font-weight: bold;
+}
+#bottom_clause3{
+    position: relative;
+    float: right;
+    top: 30px;
+    right: 60px;
+    font-size: 17px;
+    color: gray;
+    font-weight: bold;
+}
+#naverpay{
+    width: 790px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 9px;
+    text-align: center;
+}
+#naverpay_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#hyundai{
+    float: left;
+    position: absolute;
+    width: 395px;
+    height: 50px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 9px;
+    text-align: center;
+}
+#hyundai_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#samsung{
+    float: right;
+    position: relative;
+    width: 380px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 20px;
+    right: 60px;
+    padding-top: 9px;
+    text-align: center;
+}
+#samsung_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#kb{
+    float: left;
+    position: relative;
+    width: 187px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 90px;
+    left: 50px;
+    padding-top: 9px;
+    text-align: center;
+}
+#kb_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#bc{
+    float: left;
+    position: relative;
+    width: 187px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 90px;
+    left: 70px;
+    padding-top: 9px;
+    text-align: center;
+}
+#bc_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#shinhan{
+    float: right;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 40px;
+    right: 260px;
+    padding-top: 9px;
+    text-align: center;
+}
+#shinhan_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#nh{
+    float: right;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 40px;
+    left: 120px;
+    padding-top: 9px;
+    text-align: center;
+}
+#nh_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#hana{
+    float: left;
+    position: relative;
+    width: 187px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 110px;
+    left: 50px;
+    padding-top: 9px;
+    text-align: center;
+}
+#hana_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#lotte{
+    float: left;
+    position: relative;
+    width: 187px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 110px;
+    left: 70px;
+    padding-top: 9px;
+    text-align: center;
+}
+#lotte_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#city{
+    float: right;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 60px;
+    right: 260px;
+    padding-top: 9px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+#city_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#hana2{
+    float: right;
+    position: relative;
+    width: 180px;
+    height: 50px;
+    border: 1px solid gray;
+    top: 60px;
+    left: 120px;
+    padding-top: 9px;
+    text-align: center;
+}
+#hana2_btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}
+#right{
+    position: absolute;
+    width: 300px;
+    height: 700px;
+    margin-left: 1100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: firebrick;
+}
+#right_top{
+    font-size: 30px;
+    color: white;
+}
+#right_mid{
+    float: left;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+#right_mid2{
+    float: right;
+    position: relative;
+    right: 30px;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+#right_mid3{
+    float: left;
+    position: relative;
+    top: 60px;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+#right_mid4{
+    float: right;
+    position: relative;
+    top: 60px;
+    left: 30px;
+    font-size: 25px;
+    color: white;
+    padding-top: 30px;
+}
+#next{
+    position: relative;
+    top: 450px;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="b">
+	
+	<select id="select_info" resultType="vo.BoardVO" parameterType="java.util.HashMap">
+			select * from
+		( select RANK() OVER( order by idx DESC  ) no, b.*
+   		from ( select * from sc_board ) b )
+		where no between #{start} and #{end}
+	</select>
+	
+	
+	
+	<select id="countBoardList" resultType="Int">
+		select COUNT(*) from sc_board
+	</select>
+	
+	
+	
+	
+	<insert id="insert_info" parameterType="vo.BoardVO">
+		insert into sc_board values (
+			seq_numberboard_idx.nextval,
+			#{b_title},
+			#{b_content},
+			sysdate,
+			#{category},
+			#{b_name}
+		)
+		
+		
+		
+	</insert>
+	
+		<select id="getinfo"  resultType="vo.BoardVO"> 
+			select * from sc_board where idx= #{idx}
+		</select>
+		
+		
+		
+		<select id="selectone" resultType="vo.BoardVO">
+			select * from sc_board where b_name = #{b_name}
+		</select>
+		
+		
+		<delete id="delete" parameterType="vo.BoardVO">
+			delete from sc_board where idx = #{idx}
+		</delete>
+		
+</mapper>
+
+
+
+
+
+
+
+
+
+
+
+
